@@ -5,6 +5,11 @@
 <li>Us can filter information by state name or population.
 <li>From the filtered information, you can also sort by state alphebetically or sort by total population size.
 
+<h1>Source</h1>  
+The FoodAccess CSV file comes from a CORGIS Dataset, which is sourced from the United States Department of Agriculture's Economic Research Site. The data is from 2019.
+
+https://corgis-edu.github.io/corgis/csv/food_access/
+
 <h1>Dictionary</h1>
 <li>County: US County Name.
 <li>State: US State Name.
