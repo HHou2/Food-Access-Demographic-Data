@@ -14,9 +14,9 @@ def main():
     The main function.
 
     Parameters:
-    None
+      None
     Returns:
-    None
+      None
 
     1. Run the search
     2. End program message
@@ -29,10 +29,10 @@ def main():
     data_as_txt = [] # list of every record by text format
     data_as_obj = [] # list of every record by object format
 
-    for i in range(len(raw_data)):
-        data_as_txt.append(raw_data[i])
+    for i in range(len(raw_data) - 1):
+        data_as_txt.append(raw_data[i + 1]) # note i + 1 to exclude record 1
 
-        tmp_record = raw_data[i]
+        tmp_record = raw_data[i + 1] # note i + 1 to exclude record 1
         split_record = tmp_record.split(",")
 
         data_as_obj.append(Record(split_record[0], split_record[1], \
@@ -244,7 +244,7 @@ def pop_sort(from_idxs, data_as_txt):
     from_idxs: (lst) list of target indexes to order
     data_as_txt: (lst) list of all lines from file as text
   Returns:
-    ordered_idxs: (lst) list of indexes ordered by corresponding population
+    idxs_to_order: (lst) list of indexes ordered by corresponding population
   """
 
   lst_to_order = data_as_txt
@@ -252,7 +252,8 @@ def pop_sort(from_idxs, data_as_txt):
 
   for i in range(len(idxs_to_order)):
       smaller_idx = i
-      while (smaller_idx > 0) and data_as_txt[smaller_idx] < lst_to_order[smaller_idx - 1]:
+
+      while ((smaller_idx) > 0) and int(data_as_txt[smaller_idx]) < int(lst_to_order[smaller_idx - 1]):
         swap(lst_to_order, smaller_idx, smaller_idx - 1)
         swap(idxs_to_order, smaller_idx, smaller_idx - 1)
         smaller_idx = smaller_idx - 1

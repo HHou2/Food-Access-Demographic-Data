@@ -25,9 +25,9 @@ def getValidChoice():
 
   print("Please selection one of the following choices:")
   print("1. Filter by state")
-  print("2. Filter by population")
+  print("2. Filter by total population")
   print("3. Sort by state")
-  print("4. Sort by population")
+  print("4. Sort by total population")
   print("5. Reset list")
   print("0. Quit")
   print()
