@@ -1,9 +1,0 @@
-HHou2
-March 2023
-SSQL Project: Food Access Demographic Data
-
-The FoodAccess CSV file comes from a CORGIS Dataset, which is sourced from the 
-United States Department of Agriculture's Economic Research Site. The data is 
-from 2019.
-
-https://corgis-edu.github.io/corgis/csv/food_access/
