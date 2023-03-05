@@ -1,5 +1,8 @@
 """
-Builds the record class.
+HHou2
+March 2023
+SSQL Project: Food Access Demographic Data
+class Record
 """
 
 class Record:
