@@ -334,11 +334,4 @@ def pop_sort(from_idxs, data_as_txt):
 
   return idxs_to_order
 
-def endProgram():
-  """
-  Ends the program by displaying a goodbye message.
-  """
-  
-  print("Goodbye!")
-
 main()

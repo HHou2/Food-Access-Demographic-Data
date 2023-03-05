@@ -52,3 +52,10 @@ def displayResult(data_as_obj, target_idxs):
   
   print("---------------------------------------------------------------" 
     + "-----------------")
+  
+def endProgram():
+  """
+  Ends the program by displaying a goodbye message.
+  """
+  
+  print("Goodbye!")
