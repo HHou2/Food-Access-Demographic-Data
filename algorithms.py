@@ -134,23 +134,3 @@ def binary_search(lst, item):
             high = mid - 1
         else:
             low = mid + 1
-
-# we may not need this find_smallest function, this was part of the original lab file, works with the previous selection sort functions
-def find_smallest(list_to_order, start_idx):
-  """
-  Finds the smallest value in a list, starting from i
-
-  Parameters:
-    list_to_order: (lst) list of items to order
-    start_idx: (int) index of first element from which to sort
-  Returns:
-    smallest_value: (int) smallest value in list_to_order
-  """
-
-  smallest_idx = start_idx
-
-  for i in range(start_idx, len(list_to_order)):
-    if list_to_order[i] < list_to_order[smallest_idx]:
-        smallest_idx = i
-
-  return smallest_idx
