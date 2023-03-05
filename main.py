@@ -5,7 +5,6 @@ SSQL Project: Food Access Demographic Data
 main.py
 """
 
-from algorithms import *
 from frontend import *
 from backend import *
 from record import Record
