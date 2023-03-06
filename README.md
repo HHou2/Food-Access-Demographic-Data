@@ -8,7 +8,9 @@
 <h1>Source</h1>  
 The FoodAccess CSV file comes from a CORGIS Dataset, which is sourced from the United States Department of Agriculture's Economic Research Site. The data is from 2019.
 
-https://corgis-edu.github.io/corgis/csv/food_access/
+CORGIS dataset: https://corgis-edu.github.io/corgis/csv/food_access/
+
+USDA original dataset: https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/
 
 <h1>Dictionary</h1>
 <li>County: US County Name.
