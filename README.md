@@ -2,8 +2,8 @@
 <li>Enables users to filter and sort through specific fields from a 2019 USDA dataset about populations with access to food.
 <li>The CSV file is included within the repository.
 <li>Those with low food access live farther than 10 miles away from the closest grocery store.
-<li>Us can filter information by state name or population.
-<li>From the filtered information, you can also sort by state alphebetically or sort by total population size.
+<li>Users can filter information by state name or population.
+<li>From the filtered information (all information by default if no filter has been specified), users can also sort by state alphebetically or sort by total population size.
 
 <h1>Source</h1>  
 The FoodAccess CSV file comes from a CORGIS Dataset, which is sourced from the United States Department of Agriculture's Economic Research Site. The data is from 2019.
