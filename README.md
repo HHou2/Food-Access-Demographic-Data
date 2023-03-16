@@ -1,4 +1,4 @@
-# Food-Access-Demographic-Data
+# Food Access Demographic Data
 <li>Enables users to filter and sort through specific fields from a 2019 USDA dataset about populations with access to food.
 <li>The CSV file is included within the repository.
 <li>Those with low food access live farther than 10 miles away from the closest grocery store.
